@@ -1,0 +1,22 @@
+users:
+  text: "aaa"
+  user:
+    - name: "xxx"
+      filePath:
+        dir1: "/Users/phan/GroupResourceDao.java"
+        dir2: "/Users/phan/Downloads/catalina.out"
+        dir3: "/Users/phan/Downloads/Account (2).xls"
+    - name: "www"
+      filePath:
+        dir1: "/Users/phan/GroupResourceDao.java"
+        dir2: "/Users/phan/Downloads/catalina.out"
+        dir3: "/Users/phan/Downloads/Account (2).xls"
+#
+#users:
+#  text: "aaa"
+#  all:
+#    - user: "uu"
+#
+#    - user: "oo"
+
+
