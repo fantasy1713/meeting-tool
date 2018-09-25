@@ -8,9 +8,9 @@ users:
         dir3: "/Users/phan/Downloads/Account (2).xls"
     - name: "www"
       filePath:
-        dir1: "/Users/phan/GroupResourceDao.java"
-        dir2: "/Users/phan/Downloads/catalina.out"
-        dir3: "/Users/phan/Downloads/Account (2).xls"
+        dir1: 'C:\Users\phan\Documents\'
+        dir2: 'C:\Users\phan\Documents\test.txt'
+        dir3: '/Users/phan/Downloads/Account (2).xls'
 #
 #users:
 #  text: "aaa"
