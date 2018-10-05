@@ -1,15 +1,19 @@
 index={
-    url:"/filedir/",
+    url:"http://192.168.0.100:8080/filedir/",
     getUsesrs:function(){
         $.ajax({
             url:this.url,
+            // type:"get",
+            async:false,
             dataType:"json",
-            error:function(){},
-            success:function(data){
+            success :function(data){
                 var userList = {users:data}
                 Common.fillTemplate('listTemplate',userList,$("#list"));
             }
         });
+    },
+    successCallback:function(data){
+        alert("callback")
     },
     getUserDir:function (username) {
         $.ajax({
