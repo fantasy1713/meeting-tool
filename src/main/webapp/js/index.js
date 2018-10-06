@@ -2,7 +2,7 @@ index={
     url:"/filedir/",
     init:function(){
         if(window.location.protocol=="file:"){
-            this.url = "http://192.168.0.100:8080"
+            this.url = "http://192.168.0.100:8080/filedir/"
         }
     },
 
@@ -17,9 +17,6 @@ index={
                 Common.fillTemplate('listTemplate',userList,$("#list"));
             }
         });
-    },
-    successCallback:function(data){
-        alert("callback")
     },
     getUserDir:function (username) {
         $.ajax({
