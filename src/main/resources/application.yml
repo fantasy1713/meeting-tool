@@ -14,3 +14,14 @@ users:
 server:
   port: 8088
 
+management:
+  endpoints:
+    web:
+      exposure:
+       include: shutdown
+  endpoint:
+    shutdown:
+      enabled: true
+
+
+
