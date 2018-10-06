@@ -1,5 +1,11 @@
 index={
-    url:"http://192.168.0.100:8080/filedir/",
+    url:"/filedir/",
+    init:function(){
+        if(window.location.protocol=="file:"){
+            this.url = "http://192.168.0.100:8080"
+        }
+    },
+
     getUsesrs:function(){
         $.ajax({
             url:this.url,
@@ -44,4 +50,5 @@ index={
         window.open(uri);
     }
 }
+index.init();
 index.getUsesrs();
