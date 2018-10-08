@@ -1,0 +1,27 @@
+users:
+  text: "aaa"
+  user:
+    - name: "xxx"
+      filePath:
+        dir1: "/Users/phan/GroupResourceDao.java"
+        dir2: "/Users/phan/Downloads/catalina.out"
+        dir3: "/Users/phan/Downloads/Account (2).xls"
+    - name: "www"
+      filePath:
+        dir1: 'C:\Users\phan\Documents\'
+        dir2: 'C:\Users\phan\Documents\test.txt'
+        dir3: '/Users/phan/Downloads/Account (2).xls'
+server:
+  port: 8088
+
+management:
+  endpoints:
+    web:
+      exposure:
+       include: shutdown
+  endpoint:
+    shutdown:
+      enabled: true
+
+
+

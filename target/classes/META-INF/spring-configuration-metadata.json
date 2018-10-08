@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.huawei.oss.mettingtools.Model.Users",
+      "name": "users",
+      "type": "com.huawei.oss.mettingtools.Model.Users"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.huawei.oss.mettingtools.Model.Users",
+      "name": "users.text",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.huawei.oss.mettingtools.Model.Users",
+      "name": "users.user",
+      "type": "java.util.List<com.huawei.oss.mettingtools.Model.User>"
+    }
+  ]
+}
